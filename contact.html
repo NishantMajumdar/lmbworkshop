@@ -1,31 +1,38 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="main.css">
-    </head>
 
-    <body>
-        <div id="navbar">
-  
-            <a  href="javascript:void(0)">Home</a>
-            <a href="javascript:void(0)">News</a>
-            <a class="active" href="javascript:void(0)">Contact</a>
-          </div>
-          
-          <center>
-          <div id="form">
+<head>
+    <style>
+        body {
+            overflow: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div id="navbar">
+
+        <a href="index.html">Home</a>
+        <a href="javascript:void(0)">News</a>
+        <a class="active" href="javascript:void(0)">Contact</a>
+    </div>
+
+    <center>
+        <div id="form">
             <h1>Contact Us </h1><br>
-          <form action="https://api.web3forms.com/submit" method="POST">
-             <input type="hidden" name="access_key" value="0aab2cb6-34aa-40b3-aedd-1e6e7db7cad1" />
-            <input type="text" placeholder="Full Name" name="name" id="name"></input> 
-          <br>
-          <input type="email" placeholder="Email" name="email" id="email"></input><br>
-            <TextArea rows=5 cols=50 placeholder="Message" name="message"> </TextArea> <br>
-           <input type="submit" value="Submit">
-          </form>
-          </div>
-          </center> 
-          
-          
-          
-    </body>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="0aab2cb6-34aa-40b3-aedd-1e6e7db7cad1" />
+                <input type="text" placeholder="Full Name" name="name" id="name"></input>
+                <br>
+                <input type="email" placeholder="Email" name="email" id="email"></input><br>
+                <TextArea rows=5 cols=50 placeholder="Message" name="message"> </TextArea> <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </center>
+
+
+
+</body>
+
 </html>
